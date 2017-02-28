@@ -67,6 +67,7 @@ p {
 .links a {
 	text-decoration: none;
 	color: inherit;
+	padding-left: 20px;
 }
 .links img {
 	height: 50px;
