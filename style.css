@@ -23,9 +23,19 @@ p {
 	font-family: inherit;
 	text-align: inherit; 
 }
+a {
+	text-decoration: none;
+	color: inherit;
+}
+img {
+	
+}
 .center {
 	width: 60%; 
-	margin: auto;
+	margin-top: 80px; 
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
 	font-size: 28;
 }
 /* pagetitle */
@@ -64,6 +74,7 @@ p {
 }
 .links #images {
 	float: right;
+	margin-bottom: 0px;
 }
 .links a {
 	text-decoration: none;
@@ -75,13 +86,17 @@ p {
 }
 /* about */
 .about { 
-	margin-left: 80px;
-	margin-right: 80px;
+	margin-top: 0px;
+	padding: 0px;
 }
-.about h1 {
-	margin-top: 20px;
+.about h2 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 280px;
+	margin-right: 280px;
 }
 .about p {
+	margin: 0px;
 	text-align: center;
 	color: #000c1a;
 	font-size: 28px; 
