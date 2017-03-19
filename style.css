@@ -45,6 +45,10 @@ img {
 	width: 240px;
 	height: 240px;
 }
+.gridpost img {
+	width: 240px; 
+	height: 240px;
+}
 /* pagetitle */
 .pagetitle {
 	width: 100%;
