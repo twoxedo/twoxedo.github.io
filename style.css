@@ -44,6 +44,7 @@ img {
 .gridpost {
 	width: 240px;
 	height: 240px;
+	float: left;
 }
 .gridpost img {
 	width: 240px; 
