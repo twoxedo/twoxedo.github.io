@@ -41,9 +41,14 @@ img {
 .center img {
 	width: 100%;
 }
+.gridpostwrapper {
+	width: 100%;
+	padding: 60px;
+}
 .gridpost {
 	width: 240px;
 	height: 240px;
+	margin: 20px;
 	float: left;
 }
 .gridpost img {
