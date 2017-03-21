@@ -8,13 +8,11 @@ body {
 }
 h1 {
 	font-size: 96px;
-	font-weight: bold;
 	color: #3392ff;
 	text-align: center;
 }
 h2 {
 	font-size: 56px;
-	font-weight: bold;
 	color: #3392ff;
 	text-align: center;
 }
@@ -88,7 +86,6 @@ img {
 .pagetitle p {
 	color: #3392ff;
 	font-size: 180px;
-	font-weight: bold;
 	letter-spacing: 16px;
 	text-align: center;
 	position: absolute; 
@@ -107,7 +104,6 @@ img {
 	background-color: #3392ff;
 	color: #ffffff;
 	font-size: 36px;
-	font-weight: bold;
 	padding-left: 36px;
 	padding-right: 40px;
 	height: 50px;
