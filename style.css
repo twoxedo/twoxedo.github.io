@@ -43,37 +43,38 @@ img {
 }
 .gridpostwrapper {
 	width: 100%;
-	padding: 60px;
 }
 .gridpost {
-    text-decoration: none;
-    color: #000000;
-    border: 8px solid #99c9ff;
-    border-radius: 16px;
-    box-shadow: 0 0 0 1px #3392ff;
-    width: 250px;
-    height: 250px;
-    margin: 10px;
-    position: relative;
-    overflow: hidden;
-    float: left;
+	background-color: #e6f1ff;
+	color: #000000;
+	text-decoration: none;
+	width: 22%;
+	padding-top: 22%;
+	margin: 0.5%;
+	position: relative;
+	overflow: hidden;
+	float: left;
 }
 .gridpost img {
-    left: -1000%;
-    right: -1000%;
-    top: -1000%;
-    bottom: -1000%;
-    min-height: 100%;
-    min-width: 100%;
-    max-height: 120%;
-    position: absolute;
-    margin: auto;
+	left: -1000%;
+	right: -1000%;
+	top: -1000%;
+	bottom: -1000%;
+	min-height: 100%;
+	min-width: 100%;
+	max-height: 120%;
+	position: absolute;
+	margin: auto;
 }
 .gridpost p {
-    padding: 20px;
-    margin: 0px;
-    height: 200px;
-    overflow: hidden;
+	left: 0px;
+	top: 0px;
+	width: 84%;
+	height: 84%;
+	padding: 8%;
+	margin: auto;
+	position: absolute;
+	overflow: hidden;
 }
 /* pagetitle */
 .pagetitle {
