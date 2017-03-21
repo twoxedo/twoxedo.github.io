@@ -62,7 +62,7 @@ img {
     bottom: -1000%;
     min-height: 100%;
     min-width: 100%;
-    max-width: 150%;
+    max-height: 200%;
     position: absolute;
     margin: auto;
 }
