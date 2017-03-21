@@ -43,13 +43,14 @@ img {
 }
 .gridpostwrapper {
 	width: 100%;
+	padding: 0.5%;
 }
 .gridpost {
 	background-color: #e6f1ff;
 	color: #000000;
 	text-decoration: none;
-	width: 22%;
-	padding-top: 22%;
+	width: 24%;
+	padding-top: 24%;
 	margin: 0.5%;
 	position: relative;
 	overflow: hidden;
