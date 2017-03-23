@@ -10,12 +10,14 @@ body {
 h1 {
 	font-family: "Abel", sans-serif;
 	font-size: 96px;
+	font-weight: normal; 
 	color: #3392ff;
 	text-align: center;
 }
 h2 {
 	font-family: "Abel", sans-serif;
 	font-size: 56px;
+	font-weight: normal; 
 	color: #3392ff;
 	text-align: center;
 }
