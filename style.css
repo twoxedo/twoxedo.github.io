@@ -1,6 +1,6 @@
 body {
 	font-family: "Abel", sans-serif;
-	font-weight: 100; 
+	font-weight: normal; 
 	font-size: 28px;
 	background-color: #ffffff;
 	color: #000c1a;
@@ -20,9 +20,10 @@ h2 {
 	text-align: center;
 }
 p {
-	font-size: inherit;
-	font-family: inherit;
+	font-family: "Abel", sans-serif;
+	font-size: 28px;
 	text-align: inherit; 
+	color: #000c1a; 
 }
 a {
 	text-decoration: none;
@@ -51,6 +52,7 @@ img {
 	background-color: #e6f1ff;
 	color: #000000;
 	text-decoration: none;
+	border-radius: 3px; 
 	width: 23.75%;
 	padding-top: 23.75%;
 	margin: 0.5%;
