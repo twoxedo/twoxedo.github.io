@@ -1,4 +1,9 @@
-body {
+@font-face {
+	font-family: DeftoneStylus;
+	src: url(fonts/DeftoneStylus.ttf);
+	font-weight: normal; 
+}
+	body {
 	font-family: "Abel", sans-serif;
 	font-weight: normal; 
 	font-size: 28px;
