@@ -3,6 +3,11 @@
 	src: url(fonts/DeftoneStylus.ttf);
 	font-weight: normal; 
 }
+@font-face {
+	font-family: Milkshake;
+	src: url(fonts/Milkshake.ttf);
+	font-weight: normal; 
+}
 	body {
 	font-family: "Abel", sans-serif;
 	font-weight: normal; 
