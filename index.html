@@ -5,39 +5,43 @@
 		<link href="style.css" rel="stylesheet" type="text/css"> 
 		<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> 
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
-		<script>
-		/*var $window = $(window),
-			$stickyEl; = $('#sticky'),
-			elTop = $stickyEl.offset().top;
-		$window.scroll(function() {
-			$stickyEl.toggleClass('sticky', $window.scrollTop)
-		})*/
-		</script>
+		<script src="scripts/stickyNav.js" type="text/javascript"/>
 	</head>
 	<body>
 		<div class="pagetitle">
  			<img src="images/alberta.jpg">
  			<p>twoxedo</p>
  		</div>
- 		<div class="links">
- 			<a href="https://twoxedo.github.io">home</a>
- 			<a>bl0g</a>
- 			<a>info</a>
- 			<div id="images">
+		
+		<div id="stickyNavAnchor"></div>
+ 		<div class="links" id="stickyNav">
+ 			<div id="text">
+				<a href="https://twoxedo.github.io">home</a>
+				<a>|</a>
+				<a>bl0g</a>
+				<a>|</a>
+				<a>info</a>
+			</div>
+ 			<div id="images" style="top: -5px;">
  				<a href="http://2xedo.tumblr.com"><img src="images/tumblr-icon.png"></a>
+				<a>|</a>
  				<a href="http://www.reddit.com/u/2xedo"><img src="images/reddit-icon.png"></a>
+				<a>|</a>
  				<a href="http://www.twitter.com/2xedo"><img src="images/twitter-icon.png"></a>
  			</div>
 		</div>
+		
 		<!- temporary notification ->
-		<div style="position:absolute; float:left; width:16%; margin:20px; padding:10px; font-size: 22px; text-align:center; border: 2px solid #3392ff;">
+		<div style="position:absolute; float:left; width:16%; margin:20px; padding:10px; font-size: 22px; text-align:center; border: 2px solid #3392ff; border-radius: 6px;">
 			<img src="images/warningsign.png" width="50px">
-			<p style="margin:0px;">Site under construction, thanks for your patience my dudes</p>
+			<p style="margin:0px; width: 100%; height: 100%; word-wrap: break-word;">Site under construction, thanks for your patience</p>
 		</div>
+		
 		<div class="about">
 			<h2>about</h2>
 			<p style="width:50%; margin:auto;">I'm a 2D and 3D artist in the works, a programmer continually relearning HTML, Java/JS, and C/C++, and a filthy casual gamer enjoying less than 2 hours of The Division, Fallout, and Just Cause per day. </p>
 		</div>
+		
 		<div class="gridpostwrapper">
 			<div class="gridpost">
 				<img src="images/posts/FullSizeRender.jpg">
