@@ -8,6 +8,11 @@
 	src: url(fonts/Milkshake.ttf);
 	font-weight: normal; 
 }
+@font-face {
+	font-family: Elley;
+	src: url(fonts/elley.otf);
+	font-weight: normal; 
+}
 /* @font-face {
   font-family: 'Abel';
   font-style: normal;
