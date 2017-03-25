@@ -25,16 +25,15 @@ a:hover {
 }
 
 #bodyPostContent::before {
-	color: #3392ff; 
-	font-family: DeftoneStylus, Abel, sans-serif; 
-	font-size: 96px; 
-	width: 100%;
 	/* automatic header */
 	content: "twoxedo"; 
+	color: #3392ff; 
+	font-family: DeftoneStylus, Abel, sans-serif; 
+	font-size: 100px; 
 	text-align: center;
 	vertical-align: center;
-	background: #d8d8d8; /* for browsers w/o gradients */
-	background: linear-gradient(45deg, rgba(216, 216, 216, 1), rgba (255, 255, 255, 0));
+	width: 100%;
+	margin: auto;
 }
 #bodyPostContent {
 	width: 84%;
