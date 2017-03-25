@@ -76,10 +76,11 @@ img {
 	background-color: #e6f1ff;
 	color: #000000;
 	text-decoration: none;
-	border-radius: 3px; 
+	border-radius: 5px; 
 	width: 23.75%;
 	padding-top: 23.75%;
-	margin: 0.5%;
+	margin-left: 1%;
+	margin-right: 0%;
 	position: relative;
 	overflow: hidden;
 	float: left;
