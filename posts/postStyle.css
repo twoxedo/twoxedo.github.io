@@ -29,9 +29,7 @@ a:hover {
 	content: "twoxedo"; 
 	color: #3392ff; 
 	font-family: DeftoneStylus, Abel, sans-serif; 
-	font-size: 100px; 
-	text-align: center;
-	vertical-align: center;
+	font-size: 100px;
 	width: 100%;
 	margin: auto;
 }
