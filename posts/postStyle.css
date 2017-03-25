@@ -1,44 +1,46 @@
 @font-face {
-  font-family: 'Abel';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Abel'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v6/brdGGFwqYJxjg2CD1E9o7g.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+	font-family: 'Abel';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Abel'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v6/brdGGFwqYJxjg2CD1E9o7g.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 @font-face {
 	font-family: DeftoneStylus;
-	src: url(fonts/DeftoneStylus.ttf);
+	src: url(../fonts/DeftoneStylus.ttf);
 	font-weight: normal; 
 }
 body {
-  font-family: Abel, sans-serif;
-  font-size: 28px; 
-  color: #000c1a;
+	font-family: Abel, sans-serif;
+	font-size: 28px; 
+	color: #000c1a;
 }
 a {
-  color: #3392ff;
-  text-decoration: none;
+	white-space: nowrap;
+	color: #3392ff;
+	text-decoration: none;
 }
 a:hover {
-  text-decoration: underline; 
+	text-decoration: underline; 
 }
 
-#bodyPostContent:before {
-  color: #3392ff; 
-  font-family: DeftoneStylus, Abel, sans-serif; 
-  font-size: 96px; 
-  /* automatic header */
-  content: "twoxedo"; 
-  text-align: center;
-  vertical-align: center;
-  background: #d8d8d8; /* for browsers w/o gradients */
-  background: linear-gradient(45deg, rgba(216, 216, 216, 1), rgba (255, 255, 255, 0));
+#bodyPostContent::before {
+	color: #3392ff; 
+	font-family: DeftoneStylus, Abel, sans-serif; 
+	font-size: 96px; 
+	width: 100%;
+	/* automatic header */
+	content: "twoxedo"; 
+	text-align: center;
+	vertical-align: center;
+	background: #d8d8d8; /* for browsers w/o gradients */
+	background: linear-gradient(45deg, rgba(216, 216, 216, 1), rgba (255, 255, 255, 0));
 }
 #bodyPostContent {
-  width: 84%;
-  margin: 0px;
-  padding-top: 60px;
-  padding-bottom: 120px;
-  padding-left: 8%;
-  padding-right: 8%;
+	width: 84%;
+	margin: 0px;
+	padding-top: 60px;
+	padding-bottom: 120px;
+	padding-left: 8%;
+	padding-right: 8%;
 }
