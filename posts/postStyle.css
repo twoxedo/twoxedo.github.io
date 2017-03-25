@@ -37,6 +37,7 @@ a:hover {
 	color: #3392ff; 
 	font-family: DeftoneStylus, Abel, sans-serif; 
 	font-size: 116px;
+	text-shadow: 2px 4px #000000;
 }
 #bodyPostContent {
 	width: 84%;
