@@ -15,6 +15,11 @@ body {
 	font-size: 28px; 
 	color: #000c1a;
 }
+h2 {
+	float: right;
+	font-size: 48px;
+	font-weight: normal; 
+}
 a {
 	white-space: nowrap;
 	color: #3392ff;
