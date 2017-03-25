@@ -30,6 +30,8 @@ a:hover {
 	color: #3392ff; 
 	font-family: DeftoneStylus, Abel, sans-serif; 
 	font-size: 100px;
+	text-align: left;
+	vertical-align: bottom;
 	width: 100%;
 	margin: auto;
 }
