@@ -14,13 +14,15 @@ body {
   font-family: Abel, sans-serif;
   font-size: 28px; 
   color: #000c1a;
+}
 a {
   color: #3392ff;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline; 
-  
+}
+
 #bodyPostContent:before {
   color: #3392ff; 
   font-family: DeftoneStylus, Abel, sans-serif; 
