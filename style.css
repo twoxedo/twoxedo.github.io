@@ -3,6 +3,7 @@
 	src: url(fonts/DeftoneStylus.ttf);
 	font-weight: normal; 
 }
+/* ??? */
 /* @font-face {
   font-family: 'Abel';
   font-style: normal;
@@ -46,21 +47,16 @@ a {
 img {
 	
 }
-.center {
-	width: 60%; 
-	margin-top: 80px; 
-	margin-bottom: auto;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 28;
-}
-.center img {
-	width: 100%;
-}
+
+/* posts grid section */
 .gridpostwrapper {
+	display: flex;
 	width: 100%;
 	padding: 0px;
 	margin-top: 60px;
+}
+.gridpostcontent {
+	flex: 1;
 }
 .gridpost {
 	background-color: #e6f1ff;
@@ -96,14 +92,14 @@ img {
 	position: absolute;
 	overflow: hidden;
 }
-/* pagetitle */
-.pagetitle {
+/* page header section */
+.pageheader {
 	width: 100%;
 	max-height: 260px;
 	position: relative;
 	overflow: hidden;
 }
-.pagetitle p {
+.pageheader p {
 	color: #3392ff;
 	font-family: DeftoneStylus; 
 	font-size: 256px;
@@ -125,12 +121,12 @@ img {
 	right: 0px;
 	margin: 0px;
 }
-.pagetitle img {
+.pageheader img {
 	position: relative;
 	width: 100%;
 	display: inline-block;
 }
-/* links */
+/* links/nav section */
 .stuck {
 	position: fixed;
 	top: 0;
@@ -161,7 +157,7 @@ img {
 	width: 50px;
 	vertical-align: bottom;
 }
-/* about */
+/* about/bio section */
 .about { 
 	margin-top: 0px;
 	padding: 0px;
@@ -173,8 +169,21 @@ img {
 	margin-right: 280px;
 }
 .about p {
-	margin: 0px;
-	text-align: center;
 	color: #000c1a;
 	font-size: 28px; 
+	text-align: center;
+	width:50%; 
+	margin:auto;
+}
+/* page footer */
+.pagebottom {
+	width: 80%;
+	margin: auto; 
+}
+.pagefooter hr {
+	border-width: 2px;
+}
+.pagefooter p {
+	font-size: 24px; 
+	text-align: center;
 }
