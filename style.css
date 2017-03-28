@@ -39,6 +39,7 @@ p {
 	font-size: 23px;
 	text-align: inherit; 
 	color: #000c1a; 
+	text-overflow: ellipsis; 
 }
 a {
 	text-decoration: none;
