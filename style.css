@@ -93,6 +93,7 @@ img {
 	margin: auto;
 	position: absolute;
 	overflow: hidden;
+	text-overflow: ellipsis;
 }
 /* page header section */
 .pageheader {
