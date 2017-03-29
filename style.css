@@ -73,9 +73,10 @@ img {
 	overflow: hidden;
 	float: left;
 }
-.gridpost:after {
+/* text fade effect to reduce shitty crop */
+.gridpost p:after {
 	position: absolute;
-	bottom: 0px; 
+	bottom: -4%; 
 	display: block;
 	content: "";
 	height: 72px;
