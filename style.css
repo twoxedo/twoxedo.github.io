@@ -73,6 +73,15 @@ img {
 	overflow: hidden;
 	float: left;
 }
+.gridpost:after {
+	position: absolute;
+	bottom: 0px; 
+	display: block;
+	content: "";
+	height: 36px;
+	width: 100%;
+	background: transparent url("images/gridpost-transparent-gradient.png") no-repeat;
+}
 .gridpost img {
 	left: -1000%;
 	right: -1000%;
